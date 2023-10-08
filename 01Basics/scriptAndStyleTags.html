@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- JavaScript code can be written in script tags  -->
+    <script>
+        // Creates a function to change a element via id by assigning a new value to it
+        function myFunction() {
+            document.getElementById("paragraph").innerHTML = "Paragraph has been changed with script tags inside the head tags!"
+        }
+    </script>
+    <!-- CSS code can be written in style tags -->
+    <style>
+        body {
+            /* Sets background color to black */
+            background-color: black;
+            /* Sets the colors to white */
+            color: white;
+        }
+
+        h1, p {
+            /* Centers items within the element */
+            text-align: center;
+        }
+
+        /* Creates a class container for the buttons */
+        .centered-buttons {
+            /* Defines a flex container, which is a block-level container that allows
+            you to control the layout alignment of its child elements (items) */
+            display: flex;
+            /* Horizontal centering */
+            justify-content: center;
+            /* Vertical centering */
+            align-items: center;
+            /* Set the container height to the viewpoint height */
+        }
+    </style>
+</head>
+<body>
+    <!-- TItle -->
+    <h1>Calling JavaScript function.</h1>
+    <!-- Creates a paragraph that connects to the JavaScript function via id -->
+    <p id="paragraph">This is a paragraph within a p HTML tag.</p>
+    <div class="centered-buttons">
+        <!-- Calls JavaScript function once the button has been clicked on -->
+        <button type="button" onclick="myFunction()">Modify the paragraph here!</button>
+    </div>
+    <br>
+    <br>
+    <p id="paragraph2">This is another paragraph.</p>
+    <div class="centered-buttons">
+        <!-- Calls JavaScript function once the button has been clicked on -->
+        <button type="button" onclick="myFunction2()">Modify the second paragraph here!</button>
+    </div>
+    <!-- script tags can be used inside the body tags -->
+    <script>
+        function myFunction2() {
+            document.getElementById("paragraph2").innerHTML = "The second paragraph has been changed with script tags inside the body!"
+        }
+    </script>
+</body>
+</html>

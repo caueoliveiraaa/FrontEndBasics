@@ -1,11 +1,32 @@
+<!--
+
+HTML stands for Hyper Text Markup Language.
+HTML is the standard markup language for creating Web pages.
+HTML describes the structure of the Web page.
+HTML consists of a series of elements.
+HTML elements tell the broswer how to display the content.
+HTML elements label pieces of content such as "this is a heading", "this is a link", etc.
+HTML elements are defined by a start tag, some content, and an end tag.
+Some HTML elements have no content (like the <br> element). These elements are called empty elements. Empty elements do not have an end tag!
+
+-->
+
 <!-- This document type declaration indicates that the document follows the HTML5 standard -->
 <!DOCTYPE html>
 <!-- Root html tag, all the code must be stored here -->
 <html lang="en">
+<!-- Contains meta information about the HTML page and links to external sources -->
 <head>
+    <!-- This meta tag specifies the character encoding for the document -->
     <meta charset="UTF-8">
+    <!-- This meta tag is often used for responsive web design. It configures the viewpoint seetings for the page -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Title for the browser's title bar in the page's tab -->
+    <title>Working with elements</title>
+    <!-- This <link> element is used to link an external stylesheet (CSS file) to the HTML document.
+    rel="stylesheet" specifies that the linked resource is a stylesheet.
+    type="text/css" indicates the type of the linked resource as CSS.
+    href="elements.css" specifies the path to the external CSS file, which is named  -->
     <link rel="stylesheet" type="text/css" href="elements.css">
 </head>
 <body>
@@ -26,7 +47,7 @@
     
     <!-- Selecting the element "element" and changing its style via JavaScript -->
     <p id="element">JavaScript can change the style of an HTML element.</p>
-    <div class="centered-buttons">
+    <div class="centered-abuttons">
         <button type="button" onclick="document.getElementById('element').style.fontSize='35px'">click me!</button>
     </div>
     <br>
