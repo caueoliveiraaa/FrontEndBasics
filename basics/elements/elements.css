@@ -1,0 +1,61 @@
+/*
+
+CSS stands for Cascading Style Sheets.
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media.
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+External stylesheets are stored in CSS files.
+CSS Syntax: "selector" h1 {"property" color: "value" blue; "property" font-size: "value" 12px;} 
+The selector points to the HTML element you want to style.
+The declaration block contains one or more declarations separated by semicolons.
+Each declaration includes a CSS property name and a value, separated by a colon.
+Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
+
+*/
+
+/* Using the body selector to manipulate the content of the body */
+body {
+    /* Change the background color */
+    background-color: lightblue;
+}
+
+/* Using the h1 selector to manipulate h1 headers */
+h1 {
+    /* Change the color of the text */
+    color: white;
+    /* Centers the text within the element */
+    text-align: center;
+}
+
+/* Using the h3 and p selectors to manipulate h3 headers and paragraphs (<p></p>) */
+p, h3 {
+    /* Sets the font to Verdana (One of many styles) */
+    font-family: verdana;
+    /* Sets the size to 20 pixels */
+    font-size: 20px;
+    /* Sets the color to blue */
+    color: blue;
+    /* Centers the text within the element */
+    text-align: center;
+}
+
+/* Using the button selector to manipulate the buttons on the page */
+button {
+    /* Sets the size to 20 pixels */
+    font-size: 20px;
+    /* Centers the text within the element */
+    text-align: center;
+    /* Change the background color */
+    background-color: lightgray;
+}
+
+/* Creates a class container for the buttons */
+.centered-buttons {
+    /* Defines a flex container, which is a block-level container that allows
+    you to control the layout alignment of its child elements (items) */
+    display: flex;
+    /* Horizontal centering */
+    justify-content: center;
+    /* Vertical centering */
+    align-items: center;
+    /* Set the container height to the viewpoint height */
+}

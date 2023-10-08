@@ -1,0 +1,50 @@
+<!-- This document type declaration indicates that the document follows the HTML5 standard -->
+<!DOCTYPE html>
+<!-- Root html tag, all the code must be stored here -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="elements.css">
+</head>
+<body>
+    <!-- Creating a button that reloads the page via JavaScript -->
+    <h1>Reload page here via JavaScript!</h1>
+    <div class="centered-buttons">
+        <button type="button" onclick="location.reload()">Reload</button>
+    </div>
+    <br>
+
+    <!-- Selecting the sentence element via id and assigning a text value to it via JavaScript  -->
+    <h3>Manipulating JavaScript elements</h3>
+    <p id="sentence">JS can change HTML content.</p>
+    <div class="centered-buttons">
+        <button type="button" onclick='document.getElementById("sentence").innerHTML = "Content has been changed"'>Click here!</button>
+    </div>
+    <br>
+    
+    <!-- Selecting the element "element" and changing its style via JavaScript -->
+    <p id="element">JavaScript can change the style of an HTML element.</p>
+    <div class="centered-buttons">
+        <button type="button" onclick="document.getElementById('element').style.fontSize='35px'">click me!</button>
+    </div>
+    <br>
+        
+    <!-- Selecting the element hidden and making its display none by via JavaScript -->
+    <br>
+    <p id="hidden">JavaScript can hide HTML elements.</p>
+    <div class="centered-buttons">
+        <button type="button" onclick="document.getElementById('hidden').style.display='none'">Hide the text!</button>
+    </div>
+    <br>
+            
+    <!-- Selecting the return element that starts hidden with the display being none and turning it into a block, making it appear -->
+    <br>
+    <p>JavaScript return elements that are hidden.</p>
+    <p id="return" style="display: none">Hello World!</p>
+    <div class="centered-buttons">
+        <button type="button" onclick="document.getElementById('return').style.display='block'">Return MSG</button>
+    </div>
+</body>
+</html>
