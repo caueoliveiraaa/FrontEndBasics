@@ -4,9 +4,20 @@
 </head>
 <html>
 <body>
+    <!-- Buttons to display data via JavaSript -->
     <script src="jsOutput.js"></script>
     <h1>JavaSript Output</h1>
-    <button type="button" onclick="showResult()">Show the result of 6 + 5</button>
+    <button type="button" onclick="showResult()">Show the result of 6 + 5 via .innerHTML</button>
     <p id="emptyTag"></p>
+    <button type="button" onclick="showHTML()">Show the result of 6 + 5 via document.write()</button>
+    <br>
+    <br>
+    <button type="button" onclick="showAlert()">Show the result of 6 + 5 via window.alert()</button>
+    <br>
+    <br>
+    <button type="button" onclick="showConsole()">Show the result of 6 + 5 via console.log()</button>
+    <br>
+    <br>
+    <button type="button" onclick="printerPrint()">print the content of the current window window.print()</button>
 </body>
 </html>
