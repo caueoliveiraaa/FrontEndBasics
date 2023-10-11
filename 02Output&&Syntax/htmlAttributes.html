@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- You should always include the lang attribute inside the <html> tag to declare the language
+of the web page. This is meant to assist search engines and browsers.
+The following example specifies English as the l
+<html lang="en"> -->
+<!-- The following example specifies English as the language and the USA as the country: -->
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,18 +21,18 @@
     <a href="https://www.w3schools.com">Visit W3schools for more tutorials</a>
         
     <!-- The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed: -->
-    <h4>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute::</h4>
+    <h4>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute:</h4>
     <img src="sourceCode.png">
-
+        
     <!-- There are two ways to specify the URL in the src attribute:
-
+        
     1 - Absolute URL - Links to an external image that is hosted on another website.
     Example: src="https://www.w3schools.com/images/img_girl.jpg".
     
     Notes: External images might be under copyright. If you do not get permission to use it,
     you may be in violation of copyright laws. In addition, you cannot control external images;
     it can suddenly be removed or changed.
-
+    
     2 Relative URL - Links to an image that is hosted within the website. Here, the URL does
     not include the domain name. If the URL begins without a slash, it will be relative to the
     current page. 
@@ -35,10 +40,23 @@
     Example: src='image.jpg'.
     
     If the URL begins with a slash, it will be relative to the domain.
-
-    Example: src="/images/image.jpg" -->
-
-
     
-</body>W
-s</html>
+    Example: src="/images/image.jpg" -->
+    
+    <h4>Manipulating the image size via width and height (in pixels):</h4>
+    <img src="sourceCode.png" alt="Source code of this document" width="800" height="400">
+    <!-- The alt attribute should reflect the image content, so users who cannot see the image
+    get an understanding of what the image contains -->
+
+    <h4>Trying to display an image that does not exist:</h4>
+    <img src="image.png" alt="image not found">
+        
+    <h4>The style attribute is used to add styles to an elemenst. Such as color, font, size, etc.</h4>
+    <p style="color: red;">This is a red paragraph!</p>
+    
+    <h4>The title attribute defines some extra information about an element:</h4>
+    <p title="I am a paragraph in an HTML document!">Hover over this paragraph to see some extra information about it!</p>
+    
+
+</body>
+</html>
