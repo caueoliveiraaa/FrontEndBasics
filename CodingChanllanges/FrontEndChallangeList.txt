@@ -1,0 +1,87 @@
+1. Create a tribute page
+Choose a historical figure who’s meaningful to you and create a webpage dedicated to them. The webpage should include:
+
+A title or heading with the person’s name
+An image of the person
+A caption for the image
+A timeline of the person’s life in the form of a list
+This can be completed with only HTML, but use CSS to give it some style.
+
+2. Create a Wikipedia page
+Wikipedia is one of the backbones of the internet, and it has a relatively simple layout.
+ Create a Wikipedia page on the topic of your choice. It should include:
+
+A title or heading
+A table of contents with links to sections within the page
+Superscript number links that link to the corresponding number in the reference section
+An ordered list of references
+
+3. Create an HTML and CSS-only search results page
+Create a mock Google search results page. It should include:
+
+The Google logo
+A search bar at the top
+A list of search results with clickable links
+Here’s an example of what it might look like.
+
+4. Create a survey form
+HTML forms are an important part of many websites. Create a form for a survey on the topic of your choice.
+Include a variety of answer options, including text fields, dropdowns, radio buttons, checkboxes, and a submit button. 
+Don’t forget to add a title, and consider using CSS to improve the look of your form. Here’s an example.
+
+5. Create a parallax website
+A parallax website has a fixed image in the background that stays in place while you scroll through other parts of the page.
+It’s a popular effect in web design and gives an elegant look and feel to a page.
+Design a parallax webpage. Divide the page into three or four sections. Set three or four background images and align text to each section.
+You’ll use margins, padding, and background positioning to create the effect.
+
+6. Create a product landing page
+Many websites are designed to showcase and sell products. A product landing page needs to be attractive, informative, and easy to read
+to appeal to consumers. Your product landing page should include:
+
+A picture of the product
+A header and footer
+Columns
+Multiple sections
+Consider the color scheme and ensure that elements don’t overlap each other.
+
+7. Create a restaurant website
+A restaurant website is similar to a product landing page in that it should showcase the restaurant and menu items appealingly.
+It’s more complex, though, with images of different foods and drinks. First, create a responsive restaurant website using a viewport and media queries.
+
+8. Create a chessboard
+This challenge teaches you how to create and format a table. You’ll also need to learn how to insert UNICODE characters.
+Create a chessboard. The board should be alternating colors and an eight-by-eight grid. Here are the UNICODE characters you’ll need for the pieces.
+
+White King: ♔
+White Queen: ♕
+White Rook: ♖
+White Bishop: ♗
+White Knight: ♘
+White Pawn: ♙
+Black King: ♚
+Black Queen: ♛
+Black Rook: ♜
+Black Bishop: ♝
+Back Knight: ♞
+Black Pawn: ♟
+
+9. Create an event or conference website
+This challenge continues the theme of building attractive web pages. This one will include a registration button that links to a registration form.
+You’ll also need details and images of the speaker or performer and venue. Describe the event and include multiple sections along with a header and footer.
+Consider the color scheme and use fonts that are readable and reflect the theme of the event.
+
+10. Create a portfolio website
+Take what you’ve learned throughout the other challenges and create a portfolio website. The website should reflect your skills.
+Include a page with your resume, work samples, a photo, and a top menu with links to an about page, contact page, and any other pages you’d like to include.
+In the footer, include your contact information and links to your relevant social media accounts.
+
+11 - Create a technical documentation website
+
+12 - Create a discussion forum website
+
+13 - Create a sign-up page / Log-in page
+
+14 - Create a tech newsletter
+
+15 - Create a responsive website for public books
